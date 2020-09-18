@@ -1,0 +1,30 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "C/C++: (g++) build",
+			"command": "C:/MinGW/bin/g++.exe",
+			"args": [
+				"-g",
+				"src/**.cpp",
+				"-o",
+				"bin/${fileBasenameNoExtension}.exe",
+				"-Iinclude",
+				"lib/**.a",
+				"lib/**.lib",
+				"-lopengl32"
+			],
+			"options": {
+				"cwd": "${workspaceFolder}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}
