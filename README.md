@@ -4,7 +4,7 @@ Este es un proyecto de prueba. Contiene clases simples para testear la funcional
 
 Se utilizó:
   + La libreria GLFW.   (Para manejar la ventana y las entradas).
-  + La libreria GLEW.   (Para cargar las funciones de opnegl).
+  + La libreria GLEW.   (Para cargar las funciones de opengl).
   + La libreria GLM.    (Para utilizar la matematica de opengl glsl).
   + El editor VS Code.  (Para configurar el proyecto manualmente).
   + El compilador y depurador de Mingw32 (g++ y gdb). (Para compilar y depurar).
